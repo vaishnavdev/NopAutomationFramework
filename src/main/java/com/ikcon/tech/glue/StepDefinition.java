@@ -63,7 +63,7 @@ public class StepDefinition {
 	logger.debug("LANDING PAGE TITLE IS " + driver.getTitle() + " " + " AND LANDING PAGE URL IS "
 		+ driver.getCurrentUrl());
 	// take screenshot
-	takePageScreenshot(driver, projectPath + "" + "\\LoginPageScreenshots\\NOPC_LandingPage");
+	takePageScreenshot(driver, projectPath + "\\LoginPageScreenshots\\NOPC_LandingPage");
 	logger.info("LANDING PAGE SCREENSHOT IS CAPTURED");
 	// validate the title of page
 	Assert.assertTrue(title.contains("nopCommerce demo"));
