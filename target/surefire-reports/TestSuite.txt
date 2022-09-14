@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 48.092 s <<< FAILURE! - in TestSuite
+runScenario(com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest)  Time elapsed: 17.076 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+runScenario(com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest)  Time elapsed: 11.065 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+runScenario(com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest)  Time elapsed: 6.94 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+runScenario(com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest)  Time elapsed: 10.581 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+

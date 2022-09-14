@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90735" started-at="2022-09-14T20:23:09 IST" finished-at="2022-09-14T20:24:40 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest@69379752]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="90735" started-at="2022-09-14T20:23:09 IST" finished-at="2022-09-14T20:24:40 IST">
+      <class name="com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest@69379752]" name="setUpClass" is-config="true" duration-ms="566" started-at="2022-09-14T20:23:09 IST" finished-at="2022-09-14T20:23:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c3158e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest@69379752]" name="runScenario" duration-ms="25151" started-at="2022-09-14T20:23:10 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-14T20:23:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Build a computer product and add it to shopping cart with required details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the functionality of Shopping Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest@69379752]" name="runScenario" duration-ms="13462" started-at="2022-09-14T20:23:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-14T20:23:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open the shopping cart and verify the product Build"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the functionality of Shopping Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest@69379752]" name="runScenario" duration-ms="28672" started-at="2022-09-14T20:23:49 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-14T20:24:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update the product built in shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the functionality of Shopping Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest@69379752]" name="runScenario" duration-ms="22499" started-at="2022-09-14T20:24:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-14T20:24:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Remove the product from shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the functionality of Shopping Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest@69379752]" name="tearDownClass" is-config="true" duration-ms="340" started-at="2022-09-14T20:24:40 IST" finished-at="2022-09-14T20:24:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.ikcon.tech.runner.NopCommerceTestNgTestRunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
